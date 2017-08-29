@@ -24,7 +24,7 @@ static NSString * const baseURLString = @"http://pokeapi.co/api/v2/pokemon";
         
         if (error) {
             NSLog(@"Error getting pokemon for toast: %@", error.localizedDescription);
-            completion(nil)
+            completion(nil);
             return;
         }
         

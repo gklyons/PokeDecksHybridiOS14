@@ -10,6 +10,8 @@
 
 @interface DVMPokemon : NSObject
 
+NS_ASSUME_NONNULL_BEGIN
+
 - (instancetype)initWithName:(NSString *)name identifier:(NSInteger)identifier abilities:(NSArray<NSString *> *)abilities NS_DESIGNATED_INITIALIZER;
 
 @property (nonatomic, copy, readonly) NSString *name;
@@ -22,6 +24,8 @@
 @interface DVMPokemon (JSONConvertible)
 
 - (instancetype)initWithDictionary:(NSDictionary <NSString *, id> *)dictionary;
+
+NS_ASSUME_NONNULL_END
 
 @end
 

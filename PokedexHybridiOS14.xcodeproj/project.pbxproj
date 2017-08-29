@@ -14,6 +14,7 @@
 		0155B5321F54C3A2000F3ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155B5301F54C3A2000F3ACB /* LaunchScreen.storyboard */; };
 		1990A3B41F55E17000506E3F /* DVMPokemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990A3B31F55E17000506E3F /* DVMPokemonController.m */; };
 		1990A3B71F55E43B00506E3F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990A3B61F55E43B00506E3F /* NetworkController.swift */; };
+		1990A3BD1F55FCFC00506E3F /* PokemonSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990A3BC1F55FCFC00506E3F /* PokemonSearchViewController.swift */; };
 		199310511F55D0D500FF748C /* DVMPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 199310501F55D0D500FF748C /* DVMPokemon.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		1990A3B31F55E17000506E3F /* DVMPokemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMPokemonController.m; sourceTree = "<group>"; };
 		1990A3B51F55E43B00506E3F /* PokedexHybridiOS14-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokedexHybridiOS14-Bridging-Header.h"; sourceTree = "<group>"; };
 		1990A3B61F55E43B00506E3F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		1990A3BC1F55FCFC00506E3F /* PokemonSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonSearchViewController.swift; sourceTree = "<group>"; };
 		1993104F1F55D0D500FF748C /* DVMPokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVMPokemon.h; sourceTree = "<group>"; };
 		199310501F55D0D500FF748C /* DVMPokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMPokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 		0155B53B1F54C3BF000F3ACB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1990A3BC1F55FCFC00506E3F /* PokemonSearchViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				0155B5271F54C3A2000F3ACB /* AppDelegate.m in Sources */,
 				1990A3B41F55E17000506E3F /* DVMPokemonController.m in Sources */,
 				0155B5241F54C3A2000F3ACB /* main.m in Sources */,
+				1990A3BD1F55FCFC00506E3F /* PokemonSearchViewController.swift in Sources */,
 				199310511F55D0D500FF748C /* DVMPokemon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
