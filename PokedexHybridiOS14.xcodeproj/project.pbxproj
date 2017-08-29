@@ -12,6 +12,7 @@
 		0155B52D1F54C3A2000F3ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155B52B1F54C3A2000F3ACB /* Main.storyboard */; };
 		0155B52F1F54C3A2000F3ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155B52E1F54C3A2000F3ACB /* Assets.xcassets */; };
 		0155B5321F54C3A2000F3ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155B5301F54C3A2000F3ACB /* LaunchScreen.storyboard */; };
+		199310511F55D0D500FF748C /* DVMPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 199310501F55D0D500FF748C /* DVMPokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		0155B52E1F54C3A2000F3ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0155B5311F54C3A2000F3ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0155B5331F54C3A2000F3ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1993104F1F55D0D500FF748C /* DVMPokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVMPokemon.h; sourceTree = "<group>"; };
+		199310501F55D0D500FF748C /* DVMPokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMPokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		0155B5391F54C3B1000F3ACB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1993104F1F55D0D500FF748C /* DVMPokemon.h */,
+				199310501F55D0D500FF748C /* DVMPokemon.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			files = (
 				0155B5271F54C3A2000F3ACB /* AppDelegate.m in Sources */,
 				0155B5241F54C3A2000F3ACB /* main.m in Sources */,
+				199310511F55D0D500FF748C /* DVMPokemon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +352,7 @@
 				0155B5381F54C3A2000F3ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
