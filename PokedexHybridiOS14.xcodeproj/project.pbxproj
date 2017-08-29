@@ -12,6 +12,8 @@
 		0155B52D1F54C3A2000F3ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155B52B1F54C3A2000F3ACB /* Main.storyboard */; };
 		0155B52F1F54C3A2000F3ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0155B52E1F54C3A2000F3ACB /* Assets.xcassets */; };
 		0155B5321F54C3A2000F3ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0155B5301F54C3A2000F3ACB /* LaunchScreen.storyboard */; };
+		1990A3B41F55E17000506E3F /* DVMPokemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990A3B31F55E17000506E3F /* DVMPokemonController.m */; };
+		1990A3B71F55E43B00506E3F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1990A3B61F55E43B00506E3F /* NetworkController.swift */; };
 		199310511F55D0D500FF748C /* DVMPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 199310501F55D0D500FF748C /* DVMPokemon.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,10 @@
 		0155B52E1F54C3A2000F3ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0155B5311F54C3A2000F3ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0155B5331F54C3A2000F3ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1990A3B21F55E17000506E3F /* DVMPokemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVMPokemonController.h; sourceTree = "<group>"; };
+		1990A3B31F55E17000506E3F /* DVMPokemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMPokemonController.m; sourceTree = "<group>"; };
+		1990A3B51F55E43B00506E3F /* PokedexHybridiOS14-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokedexHybridiOS14-Bridging-Header.h"; sourceTree = "<group>"; };
+		1990A3B61F55E43B00506E3F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		1993104F1F55D0D500FF748C /* DVMPokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVMPokemon.h; sourceTree = "<group>"; };
 		199310501F55D0D500FF748C /* DVMPokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVMPokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +67,7 @@
 			children = (
 				0155B53D1F54C3D0000F3ACB /* UI */,
 				0155B53B1F54C3BF000F3ACB /* View Controllers */,
+				1990A3B81F55E44D00506E3F /* Network */,
 				0155B53A1F54C3B7000F3ACB /* Model Controller */,
 				0155B5391F54C3B1000F3ACB /* Model */,
 				0155B5251F54C3A2000F3ACB /* AppDelegate.h */,
@@ -93,6 +100,8 @@
 		0155B53A1F54C3B7000F3ACB /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1990A3B21F55E17000506E3F /* DVMPokemonController.h */,
+				1990A3B31F55E17000506E3F /* DVMPokemonController.m */,
 			);
 			name = "Model Controller";
 			sourceTree = "<group>";
@@ -107,6 +116,7 @@
 		0155B53C1F54C3C6000F3ACB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1990A3B51F55E43B00506E3F /* PokedexHybridiOS14-Bridging-Header.h */,
 			);
 			name = Resources;
 			path = PokedexHybridiOS14;
@@ -118,6 +128,14 @@
 				0155B52B1F54C3A2000F3ACB /* Main.storyboard */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		1990A3B81F55E44D00506E3F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1990A3B61F55E43B00506E3F /* NetworkController.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,7 @@
 				TargetAttributes = {
 					0155B51E1F54C3A2000F3ACB = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -191,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1990A3B71F55E43B00506E3F /* NetworkController.swift in Sources */,
 				0155B5271F54C3A2000F3ACB /* AppDelegate.m in Sources */,
+				1990A3B41F55E17000506E3F /* DVMPokemonController.m in Sources */,
 				0155B5241F54C3A2000F3ACB /* main.m in Sources */,
 				199310511F55D0D500FF748C /* DVMPokemon.m in Sources */,
 			);
@@ -315,10 +336,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PokedexHybridiOS14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wesstpeak.PokedexHybridiOS14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokedexHybridiOS14/PokedexHybridiOS14-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -326,10 +351,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PokedexHybridiOS14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wesstpeak.PokedexHybridiOS14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokedexHybridiOS14/PokedexHybridiOS14-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
